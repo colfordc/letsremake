@@ -1,31 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remake Studio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Remake Studio — architecture, objects, and digital design.">
+<title>Remake Studio</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<header>
-    <a class="logo" href="index.html">Remake Studio</a>
-
-    <nav>
-        <a href="about.html">About</a>
-    </nav>
+<header class="site-header">
+  <a class="wordmark" href="index.html">Remake Studio</a>
+  <a class="header-link" href="about.html">About</a>
 </header>
-
-<section class="hero">
-
-    <img src="images/hero.jpg" alt="Hero image">
-
-    <div class="overlay">
-        <h1>Let's remake ______</h1>
+<main class="portfolio">
+  <section class="project-copy">
+    <div class="copy-inner">
+      <p class="eyebrow" id="project-category"></p>
+      <h1>Let's remake <span id="project-term"></span></h1>
+      <p class="description" id="project-description"></p>
+      <div class="project-controls">
+        <button class="text-control" id="previous-project" type="button">← Previous</button>
+        <span class="project-count" id="project-count"></span>
+        <button class="text-control" id="next-project" type="button">Next →</button>
+      </div>
+      <p class="gallery-hint">Explore projects and images using the arrows.</p>
     </div>
-
-</section>
-
+  </section>
+  <section class="project-visual" aria-label="Project image gallery">
+    <div class="image-frame">
+      <img id="project-image" src="images/music-school-1.svg" alt="">
+      <button class="image-arrow image-arrow-left" id="previous-image" type="button" aria-label="Previous image">←</button>
+      <button class="image-arrow image-arrow-right" id="next-image" type="button" aria-label="Next image">→</button>
+      <div class="image-caption"><span id="image-label"></span><span id="image-count"></span></div>
+    </div>
+    <div class="gallery-dots" id="gallery-dots" aria-label="Choose an image"></div>
+  </section>
+</main>
+<script src="script.js"></script>
 </body>
 </html>

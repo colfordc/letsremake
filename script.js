@@ -23,9 +23,9 @@ const projects = [
     term: "a lampshade.",
     description: "An exploration of light, shade, and shadow and process-led design. 2026",
     images: [
-      {file:"images/lampshade-new1.jpg"},
-      {file:"images/lampshade-new2.jpg"},
-      {file:"images/lampshade-new3.jpg"}
+      {file:"images/lampshade-new1.JPG"},
+      {file:"images/lampshade-new2.JPG"},
+      {file:"images/lampshade-new3.JPG"}
     ]
   },
   {

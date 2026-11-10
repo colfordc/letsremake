@@ -4,8 +4,8 @@ const projects = [
     term: "a storefront for music.",
     description: "A renovation of a storefront in North Attleborough, MA to serve as a music school for Cadence Music Academy. The program includes spaces for individual and group lessons, an office, and a waiting area. 2026",
     images: [
-      {file:"images/cadence-1v2.JPG"},
-      {file:"images/cadence-2v2.JPG"},
+      {file:"images/cadence-new1.JPG"},
+      {file:"images/cadence-new2.JPG"},
       
     ]
   },
